@@ -1,9 +1,12 @@
 kind: DaemonSet
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 metadata:
   name: blinkt-k8s-controller
   namespace: kube-system
 spec:
+  selector:
+    matchLabels:
+      name: blinkt-k8s-controller
   template:
     metadata:
       labels:
