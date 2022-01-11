@@ -58,6 +58,11 @@ spec:
       ...
 ```
 
+## Demo ##
+[![Visualising a Kubernetes Deployment](http://img.youtube.com/vi/U6AsAn490-4/0.jpg)](http://www.youtube.com/watch?v=U6AsAn490-4 "Visualising a Kubernetes Deployment with LED strips and blinkt-k8s-controller
+")
+More details in the [blog post](https://g11s.cc/posts/2022/01/k8s-deployment-visualisieren/).
+
 ## Building Your Own ##
 
 You need a properly configured [Go environment](https://golang.org) and the [Glide](https://glide.sh) vendoring command. Just edit the `main.go` file and run:
